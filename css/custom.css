@@ -1,0 +1,78 @@
+.item-card {
+  max-width: 420px;
+}
+
+.item-container__image {
+  min-height: 200px;
+  max-width: 420px;
+  cursor: pointer;
+}
+
+.delete-section {
+  color: white;
+  padding: 20px;
+  border: 1px solid rgb(53, 151, 255, 0.507);
+  border-radius: 16px;
+  background: rgba(53, 70, 255, 0.3);
+  min-height: 400px;
+  display: grid;
+  place-items: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.delete-section.selected {
+  background: rgba(53, 151, 255, 0.507);
+}
+
+.delete-section__icon {
+  width: 40px;
+}
+
+.text-center {
+  font-family: cursive;
+  color: rgba(53, 151, 255, 0.507);
+}
+
+.mb-3 {
+  color: rgba(53, 151, 255, 0.507);
+}
+
+h4 {
+  color: rgba(59, 150, 248, 0.564);
+}
+
+#submit_button {
+  background-color: #8293e8;
+  border-color: #8293e8;
+}
+
+#find_button {
+  background-color: #8293e8;
+  border-color: #8293e8;
+}
+
+#calculate_button {
+  background-color: #8293e8;
+  border-color: #8293e8;
+}
+
+#sort_button {
+  background-color: #8293e8;
+  border-color: #8293e8;
+}
+
+#cancel_find_button {
+  background-color: #f682d1;
+  border-color: #f682d1;
+}
+
+#edit_submit_button{
+  background-color: #8293e8;
+  border-color: #8293e8;
+  margin-top: 8px;
+}
+
+#cancel_edit_button {
+  background-color: #f682d1;
+  border-color: #f682d1;
+}
