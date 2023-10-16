@@ -5,6 +5,7 @@ import {
   renderItemsList,
 } from "./dom_util.js";
 
+
 const submitButton = document.getElementById("submit_button");
 const findButton = document.getElementById("find_button");
 const cancelFindButton = document.getElementById("cancel_find_button");

@@ -8,6 +8,7 @@ const itemsContainer = document.getElementById("hotel_container");
 const getItemId = (id) => `item-${id}`;
 
 
+
 const itemTemplate = ({ id, name, location, rooms, rating }) => `
 <li id="${id}" class="card mb-3 item-card" draggable="true">
   <img
