@@ -4,3 +4,5 @@
 
 ### Лабораторна робота №1 (Варіант 6)
 Посилання на вітку [тут](https://github.com/KhrystynaDyshakant/WEB-LABS/pull/1)
+### Лабораторна робота №2 (Варіант 6)
+Посилання на вітку [тут](https://github.com/KhrystynaDyshakant/WEB-LABS/pull/2)
