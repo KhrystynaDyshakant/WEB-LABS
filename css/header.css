@@ -1,0 +1,135 @@
+body {
+    margin: 0 auto;
+}
+
+ul,
+li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+
+.menu {
+    align-items: center;
+    padding: 5px 0;
+}
+
+.menu__item {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'RUBIK', sans-serif;
+}
+
+.menu__item a {
+    font-family: 'Rubik', sans-serif;
+    color: #FFF;
+    text-decoration: none;
+}
+
+@keyframes buttonAnimation {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.title__button {
+    width: 97px;
+    height: 37px;
+    background-color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #606B74;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    animation: buttonAnimation 2s infinite;
+}
+
+.main-header {
+    padding: 24px 0;
+}
+
+.header {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../images/Bitmap.png');
+    height: 750px;
+}
+
+.offer {
+    margin-top: 150px;
+}
+
+.title {
+    padding: 30px 0;
+}
+
+.title__head {
+    color: #FFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.title__text {
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.sign__text {
+    background: url("../images/BTN\ Play.png") no-repeat left center;
+    width: 280px;
+    height: 50px;
+    padding-left: 60px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    color: #FFF;
+    margin-top: 80px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sign__text:hover {
+    background-color: #232d354f;
+    color: #FFF;
+
+}
+
+.nav-toggle {
+    font-size: 22px;
+}
+
+.burger-icon {
+    display: inline-block;
+    height: 3em;
+    vertical-align: -0.125em;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 580px;
+    color: #868282;
+}
+
+@media screen and (min-width :800px) {
+    .burger-icon {
+        display: none;
+    }
+
+}

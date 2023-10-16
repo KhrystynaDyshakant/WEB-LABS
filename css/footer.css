@@ -1,0 +1,68 @@
+.footer {
+    background-color: #26353B;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 20px;
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-last-page {
+    background-color: #26353B;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.site {
+    font-size: 15px;
+    color: #fff;
+    padding: 11px 0
+    
+    
+}
+.site a{
+    text-decoration: none;
+    color: #FFF;
+    opacity: 0.7;
+}
+
+.link-1 {
+    font-size: 15px;
+    color: rgb(196, 193, 193);
+    font-family: 'Rubik', sans-serif;
+    text-align: right;
+    padding: 11px 0px;
+}
+.link-1 a{
+    text-decoration: none;
+    color: #FFF;
+    opacity: 0.7;
+}
+
+
+.link-2 {
+    font-size: 15px;
+    color: rgb(196, 193, 193);
+    font-family: 'Rubik', sans-serif;
+    text-align: right;
+    padding: 11px 0;
+}
+.link-2 a{
+    text-decoration: none;
+    color: #FFF;
+    opacity: 0.7;
+}
+
+.last-logo {
+    height: auto;
+    padding: 11px 270px;
+}

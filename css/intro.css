@@ -1,0 +1,38 @@
+.history__title{
+    color: #222F33;
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 31px 0;
+}
+
+.history__text {
+    color: #646D70;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.history__button {
+    width: 104px;
+    height: 36px;
+    flex-shrink: 0;
+    color: #606B74;
+    border-radius: 10px;
+    border: 1px solid var(--greys-light-grey, #646D70);
+    background-color: #FFF;
+    font-size: 12px;
+}
+    
+.history__button:hover {
+    background-color: #5c82a1; 
+    color: #FFFFFF; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+
+.history__image {
+    height: 360px;
+    width: 445px;
+}
