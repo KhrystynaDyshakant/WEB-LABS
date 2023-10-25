@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"> -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Add a Hotel</h1>
+      <input type="text" id="add-hotel-name" placeholder="Hotel Name" />
+      <input type="text" id="add-hotel-location" placeholder="Location" />
+      <input type="number" id="add-hotel-rooms" placeholder="Total Rooms" />
+      <input type="number" id="add-hotel-rating" placeholder="Rating" />
+      <button id="save-new-hotel" onclick="saveNewHotel()">Save Hotel</button>
+    </div>
+
+    <script>
+      function saveNewHotel() {
+  const name = document.getElementById('add-hotel-name').value;
+  const location = document.getElementById('add-hotel-location').value;
+  const rooms = parseFloat(document.getElementById('add-hotel-rooms').value);
+  const rating = parseFloat(document.getElementById('add-hotel-rating').value);
+
+  if (location && !isNaN(rooms) && !isNaN(rating) && name && rooms >= 0 && rating >= 0) {
+    const newHotel = {
+      'name': name,
+      'location': location,
+      'rooms': rooms,
+      'rating': rating
+    };
+
+    fetch('http://localhost:5000/hotels', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(newHotel)
+    })
+      .then(response => response.json())
+      .then(data => {
+        window.location.href = 'main.html';
+      })
+      .catch(error => console.error('Error saving new hotel:', error));
+  } else {
+    alert('Invalid input. Please provide valid hotel name, location, rooms, rating.');
+  }
+}
+    </script>
+  </body>
+</html>
