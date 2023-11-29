@@ -18,6 +18,9 @@
 Посилання на вітку [тут](https://github.com/KhrystynaDyshakant/WEB-LABS/tree/lab7/web-lab7).
 ### Лабораторна робота №8 (Варіант 6)
 Посилання на вітку [тут](https://github.com/KhrystynaDyshakant/WEB-LABS/pull/14).
+### Лабораторна робота №9 (Варіант 6)
+Посилання на вітку [тут](https://github.com/KhrystynaDyshakant/WEB-LABS/tree/lab9).
+
 
 
 
